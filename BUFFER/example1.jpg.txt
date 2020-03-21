@@ -1,0 +1,12 @@
+METHODOLOGY
+
+  
+  
+  
+ 
+
+|. Files are taken as Input 4
+2. The extension of file is detected and converted
+3. The two files are compared using various algonthn
+4. The plagiarism percentage is displayed as output.
+5. The words plagiarised are also given as output.

@@ -1,0 +1,70 @@
+i
+
+ta
+
+a)
+te
+
+i
+i;
+|
+if
+ti
+}
+l
+|
+i
+‘|
+
+EF
+:
+f
+ff
+iB
+
+e
+
+im
+i
+
+=
+|
+!
+
+re
+
+Libraries And Algorithm:
+
+Tesseract OCR Library
+
+This package contains an OCR engine - libtesseract and a command line program -
+sesseract. Tesseract 4 adds a new neural net (LSTM) based OCR engine which is
+focused on line recognition, but also still supports the legacy Tesseract OCR engine
+of Tesseract 3 which works by recognizing character patterns. Compatibility with
+Tesseract 3 is enabled by using the Legacy OCR Engine mode (--oem 0). It also
+needs traineddata files which support the legacy engine, for example those from the
+
+tessdata repository.
+
+Tesseract has unicode (UTF-8) support, and can recognize more than 100
+languages "out of the box".
+
+Tesseract supports various output formats: plain text, hOCR (HTML), PDF,
+invisible-text-only PDF, TSV. The master branch also has experimental support for
+
+" ALTO (XML) output.
+
+; You should note that in many cases, in order to get better OCR results, you'll need
+_ to improve the quality of the image you are giving Tesseract.
+
+| Tesseract can be trained to recognize other languages.
+
+This library has its wrapper for python3 named as tesserocr
+
+tesserocr integrates directly with Tesseract's C++ API using Cython which allows
+for a simple Pythonic and easy-to-read source code. It enables real concurrent
+“xecution when used with Python's threading module by releasing the GIL while
+Processing animage intesseract. == = | |
+
+tesserocr is designed to be Pillov
+instead. ig
